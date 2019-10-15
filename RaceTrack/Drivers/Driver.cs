@@ -32,6 +32,11 @@ namespace RaceTrack.RaceTrack.Drivers
             Car.Brake();
         }
 
+        public virtual void StopEngine()
+        {
+            Console.WriteLine("The engines have stopped!");
+        }
+
         public abstract void Drive();
 
     }
